@@ -1,0 +1,76 @@
+<html>
+
+<head>
+
+
+        <title>
+
+            Transparente form
+            
+        </title>
+
+        
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+</head>
+    <body>
+
+        <div class="login-box">
+
+            <img src="color2.jpg" class="avatar">
+            <h1>Sistema de Exceso</h1>
+            
+
+                <p>Ingrese numero decimal</p>
+
+                <label style="font-size: 30px;"><br>
+                    <input class="form-control form-control-md" onfocus="this.value=''" placeholder="" type="text" id="pirmas" /></label><br/><br>
+
+                    
+                <div id="buttons">
+                    <input class="btn btn-primary btn-md" id="sudeti" type="button" value=" Exceso_127" onclick="sudeti()"/>
+                    
+                    <input class="btn btn-primary btn-md" id="exceso1023" type="button" value=" Exceso_1023" onclick="exceso1023()"/>
+                    
+                </div>
+                
+            
+
+
+
+        </div>
+        
+
+
+        <div class="login-box2">
+
+            <img src="color2.jpg" class="avatar2">
+            <h1>Resultado</h1><br>
+            <div id="second" class="container">
+                <p><b style="color:black;">SIGNO:</b>
+                    <span id="viso"  style="font-size:20px;"> </span></p>
+           
+                    <p><b style="color:black;">BINARIO:</b>
+                        <span id="viso2" style="font-size:20px;"></span></p>
+           
+                        <p><b style="color:black;">NORMALIZACION:</b>
+                            <span id="viso3"  style="font-size:20px;"> </span></p>
+                   
+                            <p><b style="color:black;">ERROR:</b>
+                                <span id="viso4"  style="font-size:20px;"> </span></p>
+                       
+                                <p><b style="color:black;">MANTISA:</b>
+                                    <span id="viso5"  style="font-size:20px;"> </span></p>
+                    
+                                    <p><b style="color:black;">RESULTADO:</b><br><br>
+                                        <span id="viso6" style="font-size:16px; padding-left: 21%;"> </span></p>
+                               
+                </div>
+            
+        </div>
+
+    </body>
+    <script src="logica.js"></script>
+
+
+</html>
